@@ -1,6 +1,6 @@
 var app = app || {};
 
-app.UserView = Backbone.view.extend({
+app.UserView = Backbone.View.extend({
   tagName : 'li',
   render: function(){
     var name = this.model.get('name');
