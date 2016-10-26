@@ -9,7 +9,7 @@ app.FlightListView = Backbone.View.extend({
     app.router.navigate('flights/' + this.model.get('id'), true);
   },
   render: function () {
-    this.$el.text( this.model.get('flight_num'));
+    this.$el.text( this.model.get('date'));
     this.$el.appendTo('#flightLists');
   }
 });
