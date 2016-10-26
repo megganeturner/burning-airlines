@@ -1,7 +1,7 @@
 var app = app || {};
 
 app.Airplane = Backbone.Model.extend({
-  urlRoot: '/planes',
+  urlRoot: '/airplanes',
   defaults: {
     name: '',
     rows: 0,

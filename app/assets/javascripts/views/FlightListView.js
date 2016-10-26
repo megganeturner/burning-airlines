@@ -1,9 +1,9 @@
-var app = app || {};
+var app = app ||{};
 
 app.FlightListView = Backbone.View.extend({
-  tagName: 'li', //Create a new element for each instance of this view.
+  tagName: 'li', //Create a new element 'li' for each instance of this view.
   events: {
-    'click': 'showFlight',
+    'click': 'showFlight'
   },
   showFlight: function () {
     app.router.navigate('flights/' + this.model.get('id'), true);
@@ -11,6 +11,5 @@ app.FlightListView = Backbone.View.extend({
   render: function () {
     this.$el.text( this.model.get('flight_num'));
     this.$el.appendTo('#flightLists');
-
   }
-})
+});

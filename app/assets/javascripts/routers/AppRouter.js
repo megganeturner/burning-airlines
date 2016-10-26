@@ -2,23 +2,21 @@ var app = app || {};
 
 app.AppRouter = Backbone.Router.extend({
   routes: {
-    '': 'index'
-    // 'flights': 'showFlights',
-    // 'flight/:id': 'showFlight'
+    '': 'home',
+    'flights/:id': 'viewFlight'
   },
 
-  index: function () {
-    var appView = new app.AppView();
-    appView.render();
-  }
+  home: function () {
+    app.flights = new app.Flights();
+    app.flights.fetch().done(function () {
+      var appView = new app.AppView({ });
+      appView.render();
+    });
+  },
 
-  // showFlights: function() {
-  //   flightsListView.render();
-  // }
-  //
-  // showFlight: function(){
-  //   var flight = flights.get(id);
-  //   var flightView = new app.FlightView({model: flight});
-  //   flightView.render();
-  // }
+  viewFlight: function(id){
+    var flight = app.flights.get(id);
+    var flightView = new app.FlightView({model: flight});
+    flightView.render();
+  }
 });

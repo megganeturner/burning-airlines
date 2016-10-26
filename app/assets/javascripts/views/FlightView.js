@@ -1,12 +1,19 @@
 var app = app || {};
 
-
 app.FlightView = Backbone.View.extend({
-  el: 'li',
+  el: '#main',
   events: {
-    'click': 'showFlight'
   },
-  showFlight: function(){
+
+  render: function () {
+    var flightViewTemplater = _.template( $('#flightView').html());
+    this.$el.html( flightViewTemplater( this.model.toJSON() ));
+
+    var airplaneId = this.model.get('airplane_id');
+
+  },
+
+  showFlight: function () {
     var createPlane = function() {
       // cols = this.model.Airplane.get('columns');
       // rows = this.model.Airplane.get('rows');
