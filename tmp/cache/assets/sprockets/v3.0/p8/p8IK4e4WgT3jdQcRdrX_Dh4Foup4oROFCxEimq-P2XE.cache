@@ -1,3 +1,8 @@
 [o:Set:
+<<<<<<< HEAD
+@hash{
+I"environment-version:ETTI"environment-paths;TTI"rails-env;TTI"Zprocessors:type=application/javascript&file_type=application/javascript&pipeline=self;TTI"8file-digest://app/assets/javascripts/models/User.js;TT
+=======
 @hash}
 I"environment-version:ETTI"environment-paths;TTI"rails-env;TTI"Zprocessors:type=application/javascript&file_type=application/javascript&pipeline=self;TTI"8file-digest://app/assets/javascripts/models/User.js;TTF
+>>>>>>> afde6deba81a24a74c0d6b21c5b343572188a129

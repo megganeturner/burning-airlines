@@ -2916,6 +2916,146 @@ Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.2ms)
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+Started GET "/" for ::1 at 2016-10-26 09:41:53 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 929ms (Views: 928.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/airplanes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/reservations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/flights.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/scaffolds.self-0dbeaf49323f224b77a2ddd63eda811edc995731f20af00ed6d29dac42d2377e.css?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/flights.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/models/Airplane.self-d135fed6fc3d46578e7b38f16c204bcd350d6f0085e1732e80895bca2566fa29.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/airplanes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/models/Flight.self-dfc9e164739f1a653cc4ffa4fa2aaaa59f8d9eb1138caf72e75f62251bb9bc8a.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/models/Reservation.self-5e7b734bb7cce78feb4b92f693bb8f7b3a7b5d46498375f06acf70fee6f7ecb5.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/models/User.self-0f8f8de06d34566433e951dd380098db950725d10bc518d2213e4852c7a8c865.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/reservations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/routers/AppRouter.self-c345d26efa68f1285a6020e288d70e5c5f908dfe365acc3ae397a92453fbe92e.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/views/AppView.self-b759d8c8c3a08e80e94bb9c854cc1ad898153a8e2a883d7fcefd85e9b323ed41.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/backbone.self-24dd2eef4f35014e126628a40f528a1d248193f04d54589313de6a2bef9a07a6.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for ::1 at 2016-10-26 09:41:55 +1100
+
+
+Started GET "/" for ::1 at 2016-10-26 09:42:02 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-26 09:42:11 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights" for ::1 at 2016-10-26 09:42:22 +1100
+Processing by FlightsController#index as HTML
+  [1m[35mFlight Load (2.4ms)[0m  SELECT "flights".* FROM "flights"
+  Rendered flights/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 79ms (Views: 51.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 11:57:58 +1100
+
+ActionController::RoutingError (No route matches [GET] "/seats"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (27.6ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (148.0ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (88.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (167.8ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 12:10:19 +1100
+
+ActionController::RoutingError (No route matches [GET] "/seats"):
+=======
 Started GET "/" for ::1 at 2016-10-26 09:37:26 +1100
   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by PagesController#home as HTML
@@ -4483,6 +4623,7 @@ Completed 200 OK in 139ms (Views: 103.7ms | ActiveRecord: 1.1ms)
 Started GET "/login" for ::1 at 2016-10-26 13:40:47 +1100
 
 ActionController::RoutingError (No route matches [GET] "/login"):
+>>>>>>> afde6deba81a24a74c0d6b21c5b343572188a129
   actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
   web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
@@ -4506,6 +4647,31 @@ ActionController::RoutingError (No route matches [GET] "/login"):
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (107.7ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (72.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (162.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 12:19:43 +1100
+
+ActionController::RoutingError (No route matches [GET] "/seats"):
+=======
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -4631,6 +4797,7 @@ Completed 200 OK in 67ms (Views: 64.9ms | ActiveRecord: 1.2ms)
 Started GET "/login" for ::1 at 2016-10-26 13:47:13 +1100
 
 ActionController::RoutingError (No route matches [GET] "/login"):
+>>>>>>> afde6deba81a24a74c0d6b21c5b343572188a129
   actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
   web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
@@ -4654,6 +4821,31 @@ ActionController::RoutingError (No route matches [GET] "/login"):
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.7ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (100.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 12:23:32 +1100
+
+ActionController::RoutingError (No route matches [GET] "/seats"):
+=======
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -4677,6 +4869,7 @@ ActionController::RoutingError (No route matches [GET] "/login"):
 Started GET "/login" for ::1 at 2016-10-26 13:53:49 +1100
 
 ActionController::RoutingError (No route matches [GET] "/login"):
+>>>>>>> afde6deba81a24a74c0d6b21c5b343572188a129
   actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
   web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
@@ -4700,6 +4893,31 @@ ActionController::RoutingError (No route matches [GET] "/login"):
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.0ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.6ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (103.5ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 12:34:07 +1100
+
+ActionController::RoutingError (No route matches [GET] "/seats"):
+=======
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -4793,6 +5011,7 @@ Completed 200 OK in 46ms (Views: 46.0ms | ActiveRecord: 0.2ms)
 Started GET "/login" for ::1 at 2016-10-26 13:54:20 +1100
 
 ActionController::RoutingError (No route matches [GET] "/login"):
+>>>>>>> afde6deba81a24a74c0d6b21c5b343572188a129
   actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
   web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
@@ -4816,6 +5035,269 @@ ActionController::RoutingError (No route matches [GET] "/login"):
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Tony/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.8ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.8ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Tony/.rvm/gems/ruby-2.2.3@rails-424/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (103.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 12:36:59 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 265ms (Views: 264.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/models/Flight.self-f85fbb13d733c19e37f7a0f55404fa66778d168acbd4f01758373bfc22bfb866.js?body=1" for ::1 at 2016-10-26 12:36:59 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 12:40:14 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:35:23 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 273ms (Views: 272.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-fb2e7820cd7e543d8ac39d0e6aa2407508f492cce09ca5e27582367a09988dcc.css?body=1" for ::1 at 2016-10-26 13:35:23 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:37:35 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 138ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-a9ad6ba30dec61c55bbe70b9a1d927df9656cb2c917fe63f25ac966c272095c6.css?body=1" for ::1 at 2016-10-26 13:37:35 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:38:04 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-0d12f25c0961bcc9ebed1af6cd07aae03a171c35ab0d811ab377f2b43490cf0a.css?body=1" for ::1 at 2016-10-26 13:38:04 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:41:31 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-56a5f633557e2dc85c2bffcce04d277b85f78a715f3af44629bbfe0f832cbcca.css?body=1" for ::1 at 2016-10-26 13:41:31 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:43:38 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 100ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-96d44bd94db400e291d24f8c84c3eacdd8550272285675a2d7b58a150cfb347f.css?body=1" for ::1 at 2016-10-26 13:43:38 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:44:46 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 115ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:45:45 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-28ad2fd97d4eabbc323e243b0b4a943882092431dbda1305b39491ab85abf4ff.css?body=1" for ::1 at 2016-10-26 13:45:45 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:47:11 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 63ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-1dd92eab39a491342e0346f6ec79513886c7f3019bae72587d9b86fb892292bf.css?body=1" for ::1 at 2016-10-26 13:47:11 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:48:32 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 50ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-4d61502071b230baa1c40e61f864b2418351d2c26059d7ab394c7f23c07a0579.css?body=1" for ::1 at 2016-10-26 13:48:32 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:49:14 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 51ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-3d6fa4073b28e64f949cf047d00bf71e1a9dfff9cc0f00a146edf06e468bb1a5.css?body=1" for ::1 at 2016-10-26 13:49:14 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:49:17 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:50:23 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 57ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:52:02 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-10192aea75c870cf0249b5ece32eb5b4fbe13d90e7617a7414f525b6ce535268.css?body=1" for ::1 at 2016-10-26 13:52:02 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:52:05 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:52:34 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 51ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-287d3b86bd93747bfbcefda61afe6849dc855376109acf5c77faf33d3f45d36b.css?body=1" for ::1 at 2016-10-26 13:52:34 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:52:50 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-d5d5c8c0c3c3fa2f40da3fc2bf824eb8e134e07e1da1a4668ea9d8cde0a2366f.css?body=1" for ::1 at 2016-10-26 13:52:50 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:56:56 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 66ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-49317857e3eb2e7f534557f80c3bd53331ede7c8ba344a3913056dcb85b95802.css?body=1" for ::1 at 2016-10-26 13:56:56 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:58:10 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-9e9761837cb894f7d0da2a9f16396cc635517fa7cc8b26d1492732df91ca613d.css?body=1" for ::1 at 2016-10-26 13:58:10 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 13:59:18 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-749926b6cc36550488f1be8578d77901ef38f0e293704d1782ecf92a0b32b7e8.css?body=1" for ::1 at 2016-10-26 13:59:18 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 14:01:27 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 14:01:36 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-88eae7bfe2252c4d2156577d8f299417fc2f4c9d60dd75a1d14530da99dded99.css?body=1" for ::1 at 2016-10-26 14:01:36 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 14:05:03 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-39dd8061c82bfeb6fdc6722844200e244663e0d75a342c23ebed9c474ed0e7a4.css?body=1" for ::1 at 2016-10-26 14:05:03 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 14:13:33 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 114ms (Views: 114.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 14:14:21 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-3d9c99ffc8d7d85acff9fbaa771aedb9be7344e2c7762b403cfec4b9122adb8f.css?body=1" for ::1 at 2016-10-26 14:14:21 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 14:18:24 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 83ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-941153b5efe690e0f74d435ee8a88ff608899fab586b756977e0f720c3cf8805.css?body=1" for ::1 at 2016-10-26 14:18:24 +1100
+
+
+Started GET "/seats" for ::1 at 2016-10-26 14:26:37 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 14:26:39 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seats" for ::1 at 2016-10-26 14:31:24 +1100
+Processing by FlightsController#seats as HTML
+  Rendered flights/seats.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seats.self-48a6b175a9679b53edb51cf8eef91513da0b2b2a360fd7360092f46a07db5a02.css?body=1" for ::1 at 2016-10-26 14:31:24 +1100
+=======
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/Cellar/ruby/2.3.1_2/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -5063,6 +5545,7 @@ Started GET "/" for ::1 at 2016-10-26 14:19:02 +1100
 Processing by PagesController#home as HTML
   Rendered pages/home.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+>>>>>>> afde6deba81a24a74c0d6b21c5b343572188a129
 =======
 Started GET "/" for ::1 at 2016-10-26 14:27:42 +1100
   [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
