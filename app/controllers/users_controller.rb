@@ -14,7 +14,12 @@ class UsersController < ApplicationController
 
   # GET /users/new
   def new
-    @user = User.new
+    @user = User.new user_params
+    if @user.save
+      redirect_to root_path
+    else
+      render :new
+    end
   end
 
   # GET /users/1/edit
