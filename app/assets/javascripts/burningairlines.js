@@ -23,6 +23,6 @@ $(document).ready(function(){
   var app_view = new AppView({ el: $("#main") });
 
   flights.fetch().done(function(){
-    Bacbone.history.start();
+    Backbone.history.start();
   });
 });

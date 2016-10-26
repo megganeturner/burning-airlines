@@ -5,4 +5,8 @@ Rails.application.routes.draw do
   resources :reservations
   resources :users
   get "/seats" => 'flights#seats'
+
+  get '/login' => 'session#new'
+  post '/login' => 'session#create'
+  delete '/login' => 'session#destroy'
 end
