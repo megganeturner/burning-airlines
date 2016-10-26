@@ -2913,3 +2913,173 @@ Processing by FlightsController#index as HTML
   Rendered flights/index.html.erb within layouts/application (2.2ms)
 Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.2ms)
 >>>>>>> 7e2825fed73319500cc9cc2b9aa1eb5ff6437f14
+
+
+Started GET "/" for ::1 at 2016-10-26 14:27:42 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 819ms (Views: 818.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/airplanes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/flights.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/reservations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/scaffolds.self-6761d260da168a2b0322fa0ad8fb128783dec909b7d12dac6d5a4213717e882f.css?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/backbone.self-24dd2eef4f35014e126628a40f528a1d248193f04d54589313de6a2bef9a07a6.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/airplanes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/collections/Users.self-416f0764c733539758ce717c24d1e7758f179cc5e3988c1e55b7b8d41e400a31.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/views/FlightView.self-e5039128c1c0a01860fe5be7e653c30f8b5fa0adfb377025fdcd8e6ac57330cd.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/flights.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/models/Airplane.self-d135fed6fc3d46578e7b38f16c204bcd350d6f0085e1732e80895bca2566fa29.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/models/Flight.self-e9d790c8f92b2b8bff4fd3bf3b5045af71d65997ab428e15f33aa2073337faf3.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/models/Reservation.self-5e7b734bb7cce78feb4b92f693bb8f7b3a7b5d46498375f06acf70fee6f7ecb5.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/models/User.self-5990b4bef95e4e2fdfe9c76a5231729f5acdff1261f78a8cbd083695945b7d49.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/reservations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 14:27:43 +1100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/routers/AppRouter.self-c345d26efa68f1285a6020e288d70e5c5f908dfe365acc3ae397a92453fbe92e.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/views/AppView.self-b759d8c8c3a08e80e94bb9c854cc1ad898153a8e2a883d7fcefd85e9b323ed41.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/views/UserView.self-41507da663e80ccb08a093dd8261335c1f314d204e04f839ad8f84c37206337c.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/" for ::1 at 2016-10-26 14:27:44 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/airplanes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/flights.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/reservations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/scaffolds.self-6761d260da168a2b0322fa0ad8fb128783dec909b7d12dac6d5a4213717e882f.css?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/backbone.self-24dd2eef4f35014e126628a40f528a1d248193f04d54589313de6a2bef9a07a6.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/airplanes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/collections/Users.self-416f0764c733539758ce717c24d1e7758f179cc5e3988c1e55b7b8d41e400a31.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/flights.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/models/Airplane.self-d135fed6fc3d46578e7b38f16c204bcd350d6f0085e1732e80895bca2566fa29.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/models/Flight.self-e9d790c8f92b2b8bff4fd3bf3b5045af71d65997ab428e15f33aa2073337faf3.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/models/Reservation.self-5e7b734bb7cce78feb4b92f693bb8f7b3a7b5d46498375f06acf70fee6f7ecb5.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/models/User.self-5990b4bef95e4e2fdfe9c76a5231729f5acdff1261f78a8cbd083695945b7d49.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/routers/AppRouter.self-c345d26efa68f1285a6020e288d70e5c5f908dfe365acc3ae397a92453fbe92e.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/reservations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/views/AppView.self-b759d8c8c3a08e80e94bb9c854cc1ad898153a8e2a883d7fcefd85e9b323ed41.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/views/FlightView.self-e5039128c1c0a01860fe5be7e653c30f8b5fa0adfb377025fdcd8e6ac57330cd.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/views/UserView.self-41507da663e80ccb08a093dd8261335c1f314d204e04f839ad8f84c37206337c.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-10-26 14:27:44 +1100
+
+
+Started GET "/" for ::1 at 2016-10-26 14:27:48 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights" for ::1 at 2016-10-26 14:27:55 +1100
+Processing by FlightsController#index as HTML
+  [1m[35mFlight Load (2.2ms)[0m  SELECT "flights".* FROM "flights"
+  Rendered flights/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 73ms (Views: 42.1ms | ActiveRecord: 2.4ms)
