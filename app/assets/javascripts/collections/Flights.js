@@ -1,16 +1,16 @@
-FlightView = Backbone.View.extend({
+var app = app || {};
+
+app.Flights = Backbone.Collection.extend({
   model: app.Flight,
   url: '/flights',
 
   initialize: function () {
-    this.render();
+    // Adding event handler
+    this.on('add', function(flight) {
+      // Create new FlightView
+      var flightView = new app.FlightView({ model: flight });
+      // Render
+      flightView.render();
+    });
   },
-  render: function() {
-    var template = _.template($("#appView").html(), {});
-    this.$el.html(template);
-  }
-});
-
-$(document).ready(function () {
-  var aView = new FlightView({el: $("#unique")});
 });

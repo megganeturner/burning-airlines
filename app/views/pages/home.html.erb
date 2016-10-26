@@ -1,30 +1,32 @@
 <div id="main"></div>
 
-<script type="text/x-template" id="appView">
-  <h1>Search Flights</h1>
+<script type="text/template" id="appViewTemplate">
+  <div id="headerContainer">
+    <h1>Burning Airlines</h1>
+    <p>Flight Search</p>
 
-  <div id="flightSearchView"></div>
+    <div id="searchForm"></div>
+  </div>
 
-
-  <ul id="displayFlightSearch"></ul>
-
-  <ul id="viewUsers">View Users</ul>
-
-  <ul id="viewUsers">View Users</ul>
-
+  <ul id="flightLists">
+    <p>Search for a flight to continue</p>
+  </ul>
+  <ul id="seatingPlan"></ul>
 </script>
 
-<script type="text/x-template" id="planeSeatsView">
-  <table id="planeSeatsTable"></table>
-
+<script type="text/template" id="searchInputViewTemplate">
+  <select name="Travel Origin" id="originSelect"></select>
+  <select name="Travel Destination" id="destinationSelect"></select>
+  <button id="searchButton">Search</button>
 </script>
 
-<script type="text/x-template" id="searchFlightInput">
-  <textarea placeholder="From"></textarea>
-  <textarea placeholder="To"></textarea>
-  <button>Search</button>
+<script type="text/template" id="flightView">
+  <h1>Flight Info</h1>
+  <p>Flight Number: {{ flight_num }}</p>
+  <p>Date: {{ date }}</p>
+  <p>Origin: {{ origin }}</p>
+  <p>Destination: {{ destination }}</p>
+  </div>
 </script>
 
-<body>
-  <div id="unique"></div>
-</body>
+<script type="text/template" id="seatView"></script>
