@@ -29751,3 +29751,218 @@ Processing by FlightsController#index as JSON
   Rendered flights/_flight.json.jbuilder (1.1ms)
   Rendered flights/index.json.jbuilder (74.0ms)
 Completed 200 OK in 146ms (Views: 144.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-26 23:53:59 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 839ms (Views: 819.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights" for ::1 at 2016-10-26 23:54:00 +1100
+Processing by FlightsController#index as JSON
+  [1m[35mFlight Load (1.1ms)[0m  SELECT "flights".* FROM "flights"
+  Rendered flights/_flight.json.jbuilder (3.4ms)
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (1.9ms)
+  Rendered flights/_flight.json.jbuilder (2.0ms)
+  Rendered flights/index.json.jbuilder (125.1ms)
+Completed 200 OK in 223ms (Views: 185.6ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/views/SearchInputView.self-824a0fb598151d86fb57a0ff3b7c6eb17ee002b645d0a5af6e7d7b6b8e32025f.js?body=1" for ::1 at 2016-10-26 23:54:01 +1100
+
+
+Started GET "/assets/burningairlines.self-2ef4dcaa0ddfeda3331754742bbaea61b834d59cc2438b3d468e7e8fbfd17f05.js?body=1" for ::1 at 2016-10-26 23:54:01 +1100
+
+
+Started GET "/login" for ::1 at 2016-10-26 23:54:11 +1100
+Processing by SessionController#new as HTML
+  Rendered session/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-26 23:54:13 +1100
+Processing by UsersController#new as HTML
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  app/controllers/users_controller.rb:77:in `user_params'
+  app/controllers/users_controller.rb:17:in `new'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (107.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (103.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (216.5ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-26 23:54:16 +1100
+Processing by UsersController#new as HTML
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  app/controllers/users_controller.rb:77:in `user_params'
+  app/controllers/users_controller.rb:17:in `new'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (83.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (177.6ms)
+
+
+Started GET "/login" for ::1 at 2016-10-26 23:54:18 +1100
+Processing by SessionController#new as HTML
+  Rendered session/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-26 23:54:19 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-26 23:54:24 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-26 23:55:42 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 181ms (Views: 180.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/airplanes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 23:55:42 +1100
+
+
+Started GET "/assets/reservations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 23:55:42 +1100
+
+
+Started GET "/assets/seats.self-13e7dfa4181360a2c0cc3eb4659d835054d151e3a4de6fda8eba9e648da8d764.css?body=1" for ::1 at 2016-10-26 23:55:42 +1100
+
+
+Started GET "/assets/models/Flight.self-6600c74dbc96869dc372b6b782765c73f6ad998115497568839ed5313b3128ac.js?body=1" for ::1 at 2016-10-26 23:55:42 +1100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-26 23:55:42 +1100
+
+
+Started GET "/assets/scaffolds.self-593baa48c98077fd5e85922b03b77b7448aec68bbc3e2c2733b3a9546c9d3d9b.css?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/flights.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/burningairlines.self-dc7176584696887213bce59ed9ab93d6f3c8e69ef90f5f954afc8d5bf4d9273f.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/backbone.self-24dd2eef4f35014e126628a40f528a1d248193f04d54589313de6a2bef9a07a6.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/models/Airplane.self-2847207a8dbd89c1639fa2fec0bbad07b8c81fcc2fc970df03bb00ef8c437a26.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/models/Reservation.self-5e7b734bb7cce78feb4b92f693bb8f7b3a7b5d46498375f06acf70fee6f7ecb5.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/models/User.self-5990b4bef95e4e2fdfe9c76a5231729f5acdff1261f78a8cbd083695945b7d49.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/collections/Flights.self-c81b85946509fbb80f9a35ffa15d08505890b5d798dbd949c98fa27d8af333da.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/collections/Users.self-28de9beda93b0333ca3b312f5f3fdaca7eed98a828e3e6d2060b8c4e6e19c2ea.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/views/FlightListView.self-79ac8223f63a0be38147f0014ab15fa57cdc5615cc18f494c90bc08053c3fa42.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/views/AppView.self-3ecd95d1217c5d28163dde8354e2f7a5d457bc36c85a6284dda55b44cfce420b.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/views/FlightView.self-a01a1d02fe7ab72fe03ec9ea6db6a74019566165db2c0fca0c6560a0fa54b7a2.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/views/SearchInputView.self-824a0fb598151d86fb57a0ff3b7c6eb17ee002b645d0a5af6e7d7b6b8e32025f.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/views/UserView.self-41507da663e80ccb08a093dd8261335c1f314d204e04f839ad8f84c37206337c.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/routers/AppRouter.self-b07296672862df59fee5be5df9004e03adc6da1d2162caa8b83098fc99636f54.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/airplanes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/flights.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/reservations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-10-26 23:55:43 +1100
+
+
+Started GET "/flights" for ::1 at 2016-10-26 23:55:43 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.7ms)[0m  [1mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/index.json.jbuilder (29.7ms)
+Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-10-26 23:55:47 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights" for ::1 at 2016-10-26 23:55:47 +1100
+Processing by FlightsController#index as JSON
+  [1m[35mFlight Load (0.4ms)[0m  SELECT "flights".* FROM "flights"
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/index.json.jbuilder (38.1ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.4ms)
