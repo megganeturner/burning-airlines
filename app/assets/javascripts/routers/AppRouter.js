@@ -11,10 +11,15 @@ app.AppRouter = Backbone.Router.extend({
     // app.flights.fetch().done(function () {
     //   var appView = new app.AppView({ });
     //   appView.render();
+<<<<<<< HEAD
     });
+=======
+    // });
+>>>>>>> 5529f2baf448c6094e312bdf7e86550f6f34b003
   },
 
   viewFlight: function(id){
+    // debugger;
     var flight = app.flights.get(id);
     var flightView = new app.FlightView({model: flight});
     flightView.render();

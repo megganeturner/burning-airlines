@@ -26,7 +26,15 @@
   <p>Date: {{ date }}</p>
   <p>Origin: {{ origin }}</p>
   <p>Destination: {{ destination }}</p>
+  <table id="planeSeatsTable"></table>
+  <a href="#" id="submit">Submit</a>
+  <a href="#" id="clear">Clear</a>
   </div>
 </script>
 
 <script type="text/template" id="seatView"></script>
+
+<script>
+  var current_user_id = <%= @current_user.id %>;
+  var current_user_name = <%= @current_user.name %>;
+</script>
