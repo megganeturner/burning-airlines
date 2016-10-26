@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   resources :airplanes
   resources :reservations
   resources :users
-
+  get "/seats" => 'flights#seats'
 end
