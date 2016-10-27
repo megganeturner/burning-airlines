@@ -1,7 +1,31 @@
 html,
 body {
   width: 100vw;
+  margin: 0;
+  color: #c3cbd8;
 }
+
+body {
+  background-image: url('http://www.videocopilot.net/blog/wp-content/uploads/2013/06/Airplane_down_HD.jpg');
+}
+.nav {
+  margin: 0;
+  padding: 10px;
+  background: rgba(10, 10, 10, 1);
+  text-align: center;
+}
+
+.nav li {
+  list-style: none;
+  padding: 0 10px 0 10px;
+  display: inline;
+  font-size: 16px;
+  text-decoration: none;
+}
+.nav a {
+  color: #c3cbd8;
+}
+
 #planeSeatsTable {
   margin: 0 auto;
   width: 300px;

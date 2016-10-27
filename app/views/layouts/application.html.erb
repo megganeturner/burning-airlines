@@ -7,20 +7,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <audio src="http://www.mediacollege.com/downloads/sound-effects/explosion/explosion-01.ogg">
+  </audio>
   <nav class="nav">
      <ul class="nav navbar-nav">
       <li><%= link_to("Home", root_path) %></li>
-      <li><%= link_to('Sign Up', new_user_path) %></li>
      </ul>
      <div class="credentials">
       <% if @current_user.present? %>
         <%= link_to "Logout #{@current_user.name}", login_path, :method => 'delete' %>
+        <%= link_to "Add Flight", new_flight_path %>
+        <%= link_to "Add Plane", new_airplane_path %>
       <% else %>
         <%= link_to 'Sign Up', new_user_path %>
         <%= link_to 'Sign In', login_path %>
+        <p>Please Sign In to continue</p>
       <% end %>
     </div>
    </nav>
+   <h1>Welcome to Burning Airlines</h1>
+   <h2>Fly at your own risk</h2>
 
 <div class="layoutContainer">
   <%= yield %>

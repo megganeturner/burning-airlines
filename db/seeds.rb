@@ -10,9 +10,10 @@ f1 = Flight.create :flight_num => 1, :date => '2016-05-20', :origin => 'SYD', :d
 f2 = Flight.create :flight_num => 2, :date => '2016-02-10', :origin => 'LHR', :destination => 'DXB'
 f3 = Flight.create :flight_num => 3, :date => '2016-01-01', :origin => 'LHR', :destination => 'JFK'
 
-a1.flights << f1
-a2.flights << f2
-a3.flights << f3
+
+a1.flights << f1 << f2 << f3
+# a2.flights << f2
+# a3.flights << f3
 
 # RESERVATIONS
 Reservations.destroy_all

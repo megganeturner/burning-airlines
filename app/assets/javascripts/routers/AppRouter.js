@@ -9,8 +9,8 @@ app.AppRouter = Backbone.Router.extend({
   home: function () {
     // app.flights = new app.Flights();
     // app.flights.fetch().done(function () {
-    //   var appView = new app.AppView({ });
-    //   appView.render();
+      var appView = new app.AppView();
+      appView.render();
     // });
   },
 

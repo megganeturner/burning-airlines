@@ -8,9 +8,9 @@ app.Flights = Backbone.Collection.extend({
     // Adding event handler
     this.on('add', function(flight) {
       // Create new FlightView
-      var flightView = new app.FlightView({ model: flight });
-      // Render
-      flightView.render();
+      // var flightView = new app.FlightView({ model: flight });
+      // // Render
+      // flightView.render();
     });
   },
 });

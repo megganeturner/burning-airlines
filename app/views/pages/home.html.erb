@@ -1,17 +1,17 @@
 <div id="main"></div>
 
 <script type="text/template" id="appViewTemplate">
-  <div id="headerContainer">
-    <h1>Burning Airlines</h1>
-    <p>Flight Search</p>
+  <% if @current_user.present? %>
+    <div id="headerContainer">
+      <p>Flight Search</p>
 
-    <div id="searchForm"></div>
-  </div>
+      <div id="searchForm"></div>
+    </div>
 
-  <ul id="flightLists">
-    <p>Search for a flight to continue</p>
-  </ul>
-  <ul id="seatingPlan"></ul>
+    <ul id="flightLists">
+      <p>Search for a flight to continue</p>
+    </ul>
+  <% end %>
 </script>
 
 <script type="text/template" id="searchInputViewTemplate">
@@ -21,7 +21,7 @@
 </script>
 
 <script type="text/template" id="flightView">
-  <h1>Flight Info</h1>
+  <h3>Flight Info</h3>
   <p>Flight Number: {{ flight_num }}</p>
   <p>Date: {{ date }}</p>
   <p>Origin: {{ origin }}</p>
@@ -35,6 +35,7 @@
 <script type="text/template" id="seatView"></script>
 
 <script>
-  var current_user_id = <%= @current_user.id %>;
-  var current_user_name = <%= @current_user.name %>;
+  <% if @current_user.present? %>
+    var current_user_id = <%= @current_user.id %>;
+  <% end %>
 </script>
