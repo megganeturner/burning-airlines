@@ -12,7 +12,7 @@ app.searchInputView = Backbone.View.extend({
     // Get the destination out of the select tag
     var chosenDestination = this.$el.find("#destinationSelect").val();
 
-    // Store flights from db with the selected origin and the selected destination as validFlights
+    // Store flights from db with the chosen origin and the chosen destination as validFlights
     var validFlights = app.flights.where({ origin: chosenOrigin, destination: chosenDestination });
 
     $("#flightLists").html(""); // Empty out the flightLists to allow for current search
@@ -23,7 +23,7 @@ app.searchInputView = Backbone.View.extend({
     }
 
     _.each( validFlights, function (f) { // Go through each flight and store the current one as f
-      // Create a new flightListView
+      // Create and render a new flightListView
       var flightListView = new app.FlightListView({ model: f });
       flightListView.render();
     });

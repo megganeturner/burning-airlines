@@ -53,3 +53,17 @@ td {
   display: block;
   text-align: center;
 }
+
+h1,
+h2,
+h3,
+input,
+p,
+button {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#flightLists li {
+  list-style: none;
+}

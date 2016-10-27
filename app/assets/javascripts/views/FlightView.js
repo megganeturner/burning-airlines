@@ -3,17 +3,18 @@ var app = app || {};
 app.FlightView = Backbone.View.extend({
   el: '#main',
   events: {
-    'click td': 'seatSelect'
+    'click td': 'seatSelect',
+    'click #submit': 'confirmSeat'
   },
 
   seatSelect: function(event){
     if ($(event.target).hasClass('unavailable')) {
-      alert('bad');
       return;
     } else {
-      alert('adding')
-      debugger;
+
       var seatNumber = $(event.target).attr('id');
+
+
     //   $('#planeSeatsTable tr').each(function(){
     //     $(event.target).find('td').each(function(){
     //       if ($(this).html() == current_user_id) {
@@ -27,16 +28,30 @@ app.FlightView = Backbone.View.extend({
     }
     // availableSeats = totalSeats - $('.unavailable').length;
   },
+
+  confirmSeat: function(){
+    $('#planeSeatsTable tr').each(function(){
+      $(this).find('td').each(function(){
+        if ($(this).hasClass('unavailable')) {
+          var seatNumber = $(this).attr('id');
+          app.baReservations.create({seat:seatNumber});
+        }
+      })
+    });
+
+
+  },
+
   render: function () {
-    var flightViewTemplater = _.template( $('#flightView').html());
-    this.$el.html( flightViewTemplater( this.model.toJSON() ));
+
+    var flightViewTemplate = _.template( $('#flightView').html());
+    this.$el.html( flightViewTemplate( this.model.toJSON() ));
 
     var airplaneId = this.model.get('airplane_id');
 
     var flight = this.model;
 
     // var plane = app.Airplane. withID(airplaneId)
-
 
     var createPlane = function() {
       console.log('createPlane', flight);

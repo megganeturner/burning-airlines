@@ -24,7 +24,9 @@ class ReservationsController < ApplicationController
   # POST /reservations
   # POST /reservations.json
   def create
-    @reservation = Reservation.new(reservation_params)
+    # binding.pry
+    @reservation = Reservation.new(params['seat'])
+    @reservation.save();
 
     respond_to do |format|
       if @reservation.save
@@ -69,6 +71,6 @@ class ReservationsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def reservation_params
-      params.require(:reservation).permit(:row, :column, :user_id, :flight_id)
+      params.require(:reservation).permit(:row, :column, :user_id, :flight_id,:seat)
     end
 end
